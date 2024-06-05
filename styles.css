@@ -1,0 +1,45 @@
+*, *::after, *::before{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+section{
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+img{
+    height: 100vh;
+}
+a{
+    display: block;
+    height: 100vh;
+    position: relative;
+}
+
+.base {
+    display: block;
+    
+}
+
+.hover{
+    border: 1px solid pink;
+    position: absolute;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    object-fit: cover;
+    clip-path: url("#svgMask");
+
+}
